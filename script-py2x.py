@@ -19,6 +19,6 @@ def crypt(d, k):
 
     return ''.join(o)
 enc_pass = "5mv5/MtLr2nE3ErqzPvdiGk="
-key = "this_is_an_RC4_key"
+key = {place key here}
 password = crypt(b64decode(enc_pass),key)
 print password
